@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>   <!-- vij imenata i kak da slojish video-->
+<html>
+<style>
+ #menu{
+         width: 100%;
+        font-size: 20px;
+ border: 2px solid pink;
+ }
+ #logo{  float: right;}
+
+  html {
+    background-image: url('fire.jpg');
+    background-repeat: no-repeat;
+              }
+  a:link {
+  color:#ff9900 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+ <!--MENU-->
+<header style="color:white;">
+    <table id="menu" >
+        <tr id="menu">
+            <th id="logo" width: 16%;><a href="index.html"><img src="logo.jpg" width="30" height="30" alt="LOGO"></a> </th>
+            <th width: 16%;><a href="index.html">HOME</a></th>
+            <th  width: 16%;><a href="characters.html">CHARACTERS</a></th>
+            <th  width: 16%;><a href="masters.html">MASTERS</a></th>
+            <th  width: 16%;><a href="Galery.html">GALLERY</a></th>
+            <th  width: 16%;><a href="Sources.htm">SOURCES</a></th>
+        </tr>
+    </table>
+</header>
+<br>
+<head>
+  <title>Fairy tail Gallery </title>
+
+  <!--JQuery-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script>
+    $(document).ready(function(){
+     $("#hide").click(function(){
+     $("footer").hide();
+     alert("The autor name has been hidden!")
+      });
+      });
+    $(document).ready(function(){
+      $("#show").click(function(){
+      $("footer").show();
+      alert("The autor name has apperared!")
+      });
+      });
+      </script>
+
+</head>
+ <br>
+<h1 style="color:white;">Gallery</h1>
+<br>
+<body>
+<div>
+<table style="width:100%" summary="summary">
+<style>
+table, th, td {
+  border: 2px solid black;
+  }
+</style>
+<tr>
+  <td><img src="Master1.png" width="200" height="200" alt="Mavis Vermillion" /></td>
+  <td><img src="StartFT.jpg" width="200" height="200" alt="First Guild" /></td>
+  <td><img src="Master2.jpg" width="200" height="200" alt="Second Master" /></td>
+  <td><img src="MasterM.jpg" width="200" height="200" alt="Master Makarow" /></td>
+</tr>
+<tr>
+  <td><img src="LucyH.jpg" width="200" height="200" alt="Lucy H." /></td>
+  <td><img src="Juvia.png" width="200" height="200" alt="Juvia L." /></td>
+  <td><img src="NatsuD.png" width="200" height="200" alt="Natsu D." /></td>
+  <td><img src="GrayF.png" width="200" height="200" alt="Gray F." /></td>
+</tr>
+<tr>
+  <td><img src="G1.png" width="200" height="200" alt="Earza S." /></td>
+  <td><img src="G2.jpg" width="200" height="200" alt="Other Guild members" /></td>
+  <td><img src="G3.jpg" width="200" height="200" alt="Father and Daughter" /></td>
+  <td><img src="D&D.jpg" width="200" height="200" alt="Dragon slayer & dragon" /></td>
+</tr>
+<tr>
+    <td>
+ <video width="200" height="200" autoplay>
+  <source src="Video1.webm" type="video/webm">
+</video>
+    </td>
+    <td>
+<video width="200" height="200" autoplay>
+  <source src="Video2.webm" type="video/webm">
+</video>
+    </td>
+    <td>
+      <video width="200" height="200" autoplay>
+        <source src="Video3.webm" type="video/webm">
+      </video>
+    </td>
+    <td>
+      <video width="200" height="200" autoplay>
+        <source src="Video4.webm" type="video/webm">
+      </video>
+    </td>
+</tr>
+</table>
+</div>
+
+<!--Buttons-->
+  <button id="hide">hide</button>
+ <button id="show" >autor</button>
+
+</body>
+  <footer hidden="hidden" style="color:white;">
+     Created by Petar H4F
+ </footer>
+</html>

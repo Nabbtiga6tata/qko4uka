@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+ <!--Pleas do not minde my coments thye are only to reminde me what i was about to do before leaving-->
+<!--STYLE promeni fona -->
+<!--i put the styles together and set a com befor each article/section and the menu -->
+
+<style>
+ #menu{
+         width: 100%;
+        font-size: 20px;
+ border: 2px solid pink;
+ }
+ #logo{  float: right;
+
+ }
+ a:link {
+  color:#ff9900 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  html {
+
+    background-image: url('FTR.jpg');
+    background-repeat: no-repeat;
+
+  body {
+    background-color: transparent;
+
+    background-repeat: no-repeat;
+
+  }
+</style>
+<!--JQuery-->
+<meta charset="UTF-8">
+
+
+ <!--MENU-->
+<header style="color:white;">
+    <table id="menu" >
+        <tr id="menu">
+            <th id="logo" width: 16%;><a href="index.html"><img src="logo.jpg" width="30" height="30" alt="LOGO"></a> </th>
+            <th width: 16%;><a href="index.html">HOME</a></th>
+            <th  width: 16%;><a href="characters.html">CHARACTERS</a></th>
+            <th  width: 16%;><a href="masters.html">MASTERS</a></th>
+            <th  width: 16%;><a href="Galery.html">GALLERY</a></th>
+            <th  width: 16%;><a href="Sources.htm">SOURCES</a></th>
+        </tr>
+    </table>
+</header>
+
+  <head>
+
+  <title> Fairy Tail</title>
+
+  <!--JQuery-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script>
+    $(document).ready(function(){
+     $("#hide").click(function(){
+     $("footer").hide();
+     alert("The autor name has been hidden!")
+      });
+      });
+    $(document).ready(function(){
+      $("#show").click(function(){
+      $("footer").show();
+      alert("The autor name has apperared!")
+      });
+      });
+      </script>
+  </head>
+
+ <!--BODY-->
+
+ <body>
+  <!--Section1-->
+
+  <h1 style="color:white;">
+
+FAIRYL TAIL
+
+  </h1>
+
+  <section style="color:white;">
+
+Fairy Tail is a Japanese manga series written and illustrated by <a href="https://nl.wikipedia.org/wiki/Hiro_Mashima" target="_blank">Hiro Mashima</a>. It was serialized in Kodansha's Weekly Shonen Magazine from August 2006 to July 2017.The manga has been adapted into an anime series produced by A-1 Pictures, Dentsu Inc., Satelight, Bridge, and CloverWorks which was broadcast in Japan on TV Tokyo from October 2009 to March 2013. A second series was broadcast from April 2014 to March 2016. A third and final series aired from October 2018 to September 2019. The series has also inspired numerous spin-off manga, including a prequel by Mashima, Fairy Tail Zero, and a sequel storyboarded by him, titled Fairy Tail: 100 Years Quest. Additionally, A-1 Pictures has developed nine original video animations and two animated feature films.
+<p style="color:white;">
+The manga series was originally licensed for an English language release in North America by Del Rey Manga, which began releasing the individual volumes in March 2008 and ended its licensing with the 12th volume release in September 2010. In December 2010, Kodansha USA took over the North American release of the series. The Southeast Asian network Animax Asia aired an English-language version of the anime for seven seasons from 2010 to 2015. The manga was also licensed in the United Kingdom by Turnaround Publisher Services and in Australia by Penguin Books Australia. The anime has been licensed by Funimation for an English-language release in North America. As of February 2020, Fairy Tail had 72 million copies in print.
+</p>
+    <img src="Autor.png" width="300" height="420" alt="Autor" />
+  </section>
+
+  <br>
+<!--Section2-->
+
+  <section style="color:white;">
+
+  The story follows the adventures of the main character Natsu Dragneel and his friends-guildmates. Although Natsu has no Family left he found one in the guild Fairy tail. The group of friends had to surpas many difficulties and it will without doubt surpass meny more to come.
+    <p style="color:white;">
+  After several adventures, Natsu and his companions find Zeref living in isolation on Fairy Tail's sacred ground of Sirius Island,[2] where he expresses a desire to die for the atrocities he has committed. A battle over Zeref ensues between Fairy Tail and the dark guild Grimoire Heart, which attracts the attention of the evil black dragon Acnologia. The Fairy Tail wizards survive Acnologia's assault when the spirit of their guild's founder and Zeref's estranged lover, Mavis Vermillion, casts the defensive Fairy Sphere spell that places them into seven years of suspended animation. Later, Fairy Tail wages war against the Etherious dark guild Tartaros, who aim to unseal a book believed to contain E.N.D., Zeref's ultimate demon. When Acnologia returns to annihilate both guilds, Igneel - revealed to have sealed himself within Natsu - emerges to battle Acnologia, only to be killed in front of a helpless Natsu, who departs on a training journey to avenge Igneel.
+
+After Natsu returns one year later, Fiore is invaded by the Alvarez Empire, a military nation ruled by Zeref, who intends to acquire Fairy Heart, a wellspring of infinite magic power housed within Mavis's equally cursed body preserved beneath Fairy Tail's guildhall. While battling Zeref, Natsu is informed of his own identity as both Zeref's younger brother and the true incarnation of E.N.D. (Etherious Natsu Dragneel),
+</p>
+ </section>
+ <img  src="HappyG.jpg" width="800" height="420" alt="HappyG.jpg" />
+
+  <!--Buttons-->
+  <button id="hide">hide</button>
+ <button id="show" >autor</button>
+
+ </body>
+ <footer hidden="hidden" style="color:white;">
+     Created by Petar H4F
+ </footer>
+</meta>
+
+</html>

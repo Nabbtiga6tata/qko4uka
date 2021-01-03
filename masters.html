@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+ #menu{
+         width: 100%;
+        font-size: 20px;
+ border: 2px solid pink;
+ }
+ #logo{  float: right;
+
+ }
+
+  html {
+    background-image: url('fire.jpg');
+    background-repeat: no-repeat;
+              }
+  a:link {
+  color:#ff9900 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+<meta charset="UTF-8">
+ <!--MENU-->
+<header style="color:white;">
+    <table id="menu" >
+        <tr id="menu">
+            <th id="logo" width: 16%;><a href="index.html"><img src="logo.jpg" width="30" height="30" alt="LOGO"></a> </th>
+            <th width: 16%;><a href="index.html">HOME</a></th>
+            <th  width: 16%;><a href="characters.html">CHARACTERS</a></th>
+            <th  width: 16%;><a href="masters.html">MASTERS</a></th>
+            <th  width: 16%;><a href="Galery.html">GALLERY</a></th>
+            <th  width: 16%;><a href="Sources.htm">SOURCES</a></th>
+        </tr>
+    </table>
+</header>
+ <head>
+
+  <title> Guild Masters</title>
+
+  <!--JQuery-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script>
+    $(document).ready(function(){
+     $("#hide").click(function(){
+     $("footer").hide();
+     alert("The autor name has been hidden!")
+      });
+      });
+    $(document).ready(function(){
+      $("#show").click(function(){
+      $("footer").show();
+      alert("The autor name has apperared!")
+      });
+      });
+      </script>
+
+ </head>
+
+<br>
+<h1 style="color:white;">Guild Masters</h1>
+<br>
+<body>
+<div>
+<table style="width:100%" summary="summary">
+
+<style>
+table, th, td {
+  border: 2px solid black;
+  }
+</style>
+
+<tr>
+  <td><a href="https://fairytail.fandom.com/wiki/Mavis_Vermillion" target="_blank"><img src="Master1.png" width="200" height="200" alt="Mavis Vermillion" /></a></td>
+  <td style="color:white;"><a href="https://fairytail.fandom.com/wiki/Mavis_Vermillion" target="_blank">Mavis Vermillion</a> was the first Guild Master and co-founder of the Fairy Tail Guild. Despite her body being comatose and sealed within a Lacrima that has become to be known as Fairy Heart, she continues to interact with the guild and its members as a Thought Projection. Ultimately after a long time of being encased in Lacrima, Mavis' real body is freed with painstaking efforts of Cana and her usage of Fairy Glitter.
+  </td>
+</tr>
+<tr>
+  <td><a href="https://fairytail.fandom.com/wiki/Hades" target="_blank"><img src="Master2.jpg" width="200" height="200" alt="Precht Gaebolg" /></a></td>
+  <td style="color:white;"><a href="https://fairytail.fandom.com/wiki/Hades" target="_blank">Precht Gaebolg</a> was one of the founders of Fairy Tail, the guild's second Guild Master, and the one who passed on the title to Makarov Dreyar. After leaving Fairy Tail, Hades later became the founder and leader of the Dark Guild, Grimoire Heart.
+  </td>
+</tr>
+<tr>
+  <td><a href="https://fairytail.fandom.com/wiki/Makarov_Dreyar" target="_blank"><img src="MasterM.jpg" width="200" height="200" alt="Precht Gaebolg" /></a></td>
+  <td style="color:white;"><a href="https://fairytail.fandom.com/wiki/Makarov_Dreyar" target="_blank">Makarov Dreyar</a> is the 3rd, 6th and 8th Guild Master of the Fairy Tail Guild, as well as one of the Ten Wizard Saints.Makarov is an extremely short, elderly man. He has black eyes and is growing bald with only the outer rims of his head containing white hair. He also has a thick white mustache. He has a black stamp of the Fairy Tail guild mark that covers his entire chest area.
+  </td>
+</tr>
+</table>
+
+<!--Buttons-->
+  <button id="hide">hide</button>
+ <button id="show" >autor</button>
+</div>
+</body>
+
+
+ <footer hidden="hidden" style="color:white;">
+     Created by Petar H4F
+ </footer>
+</meta>
+</html>
